@@ -4,5 +4,5 @@ This theme was inspired by Marian Zagoruiko's [Monokai - Easy White for Retina T
 
 The theme has only been styled for JavaScript, Handlebars, HTML, CSS, SCSS, Python, and JSON files.
 
-# JavaScript/EmberJS Example
+### JavaScript/EmberJS Example
 ![EmberJS Example](https://github.com/clcuevas/monokai-easy-retina-syntax/blob/master/assets/js_example.png)
