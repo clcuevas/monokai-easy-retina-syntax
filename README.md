@@ -1,5 +1,8 @@
 # monokai-easy-retina-syntax theme
 
-A short description of your theme.
+This theme was inspired by Marian Zagoruiko's [Monokai - Easy White for Retina Theme](http://colorsublime.com/theme/MonokaiEasyForRetina)
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+The theme has only been styled for JavaScript, Handlebars, HTML, CSS, SCSS, Python, and JSON files.
+
+# JavaScript/EmberJS Example
+![EmberJS Example](https://github.com/clcuevas/monokai-easy-retina-syntax/blob/fitNFinish/assets/js_example.png)
