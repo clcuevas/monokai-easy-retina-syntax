@@ -64,7 +64,6 @@ atom-text-editor {
 
       &.syntax--underline {
         color: @yellow;
-        // text-decoration: underline;
       }
     }
 
@@ -102,8 +101,8 @@ atom-text-editor {
 .syntax--constant {
   &.syntax--character,
   &.syntax--language,
-  &.syntax--numeric {
-  // &.syntax--other {
+  &.syntax--numeric,
+  &.syntax--css.syntax--rgb-value {
     color: @purple-portage;
   }
 }
@@ -131,7 +130,6 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--inherited-class {
-    // font-style: italic;
     text-decoration: none;
     color: @green-citron;
   }
@@ -168,18 +166,14 @@ atom-text-editor {
 }
 
 .syntax--storage {
-  // color: @pink; // TODO: Where is this?
   color: @orange-ochre;
 
   &.syntax--type {
-    // font-style: italic;
-    // color: @blue;
     color: @blue-shakespeare;
   }
 }
 
 .syntax--string {
-  // color: @yellow;
   color: @yellow-laser;
 }
 
@@ -189,22 +183,17 @@ atom-text-editor {
   }
 
   &.syntax--function {
-    // color: @blue;
     color: @green-citron;
   }
 
   &.syntax--class,
   &.syntax--type {
-    // font-style: italic;
-    // color: @blue;
     color: @blue-shakespeare;
   }
 }
 
 .syntax--variable {
   &.syntax--parameter {
-    // font-style: italic;
-    // color: @orange;
     color: @orange-ochre;
   }
 
@@ -212,14 +201,12 @@ atom-text-editor {
   &.syntax--language.syntax--python,
   // 'this' Javascript
   &.syntax--language.syntax--js {
-    // color: @pink;
     color: @orange-ochre;
   }
 }
 
 // Jade syntax
 .syntax--class.syntax--jade {
-  // color: @purple;
   color: @purple-portage;
 }
 
@@ -232,10 +219,9 @@ atom-text-editor {
 .syntax--js {
   .syntax--template {
     .syntax--element {
-      .syntax--quasi.syntax--begin, .syntax--quasi.syntax--end, .syntax--language {
-        // color: @pink; // TODO: Is this needed?
-      }
-
+      // .syntax--quasi.syntax--begin, .syntax--quasi.syntax--end, .syntax--language {
+      //   // color: @pink; // TODO: Is this needed?
+      // }
       .syntax--variable, .syntax--brace, .syntax--comma {
         color: @syntax-text-color;
       }
@@ -247,10 +233,10 @@ atom-text-editor {
   }
 }
 
-.syntax--json {
-  .syntax--key {
-    .syntax--string {
-      // color: #a6e22e;
-    }
-  }
-}
+// .syntax--json {
+//   .syntax--key {
+//     .syntax--string {
+//       // color: #a6e22e;
+//     }
+//   }
+// }
