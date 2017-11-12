@@ -7,7 +7,7 @@ The theme has only been tested for JavaScript, Handlebars, HTML, SCSS, Python, a
 *Note*: If working on an application that uses Handlebars, it is best to use the [Handlebars](https://atom.io/packages/Handlebars) atom package for stylistic purposes.
 
 ### JavaScript/EmberJS Example
-![EmberJS Example](https://github.com/clcuevas/monokai-easy-retina-syntax/blob/master/assets/js_example.png)
+![EmberJS Example](/assets/js_example.png)
 
 ### Python Example
-![Django/Python Example](https://github.com/clcuevas/monokai-easy-retina-syntax/blob/master/assets/py_example.png)
+![Django/Python Example](/assets/py_example.png)
