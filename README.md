@@ -4,10 +4,13 @@ This theme was inspired by Marian Zagoruiko's [Monokai - Easy White for Retina T
 
 The theme has only been tested for JavaScript, Handlebars, HTML, SCSS, Python, and JSON files.
 
-*Note*: If working on an application that uses Handlebars, it is best to use the [Handlebars](https://atom.io/packages/Handlebars) atom package for stylistic purposes.
+**Note**: If working on an application that uses Handlebars, it is best to use the [Handlebars](https://atom.io/packages/Handlebars) atom package for stylistic purposes.
 
 ### JavaScript/EmberJS Example
 ![EmberJS Example](/assets/js_example.png)
 
 ### Python Example
 ![Django/Python Example](/assets/py_example.png)
+
+### HTML/Handlebars Example
+![HTML/Handlebars Example](/assets/html_handlebars_example.png)
