@@ -210,6 +210,36 @@ atom-text-editor {
   color: @purple-portage;
 }
 
+// Handlebars
+.syntax--handlebars {
+  &.syntax--attribute-name.syntax--other {
+    color: @gray-silver;
+  }
+
+  &.syntax--block.syntax--function {
+    color: @green-citron;
+  }
+
+  &.syntax--start.syntax--function {
+    color: @gray-silver;
+
+    .syntax--attribute-name {
+      color: @gray-silver;
+    }
+  }
+
+  .syntax--else {
+    color: @orange-ochre;
+  }
+}
+
+// HTML
+.syntax--html {
+  &.syntax--key-value {
+    color: @green-citron;
+  }
+}
+
 // Prevent underlines from making their way into whitespace elements
 .leading-whitespace,
 .trailing-whitespace {
@@ -227,5 +257,21 @@ atom-text-editor {
         color: @purple-portage;
       }
     }
+  }
+}
+
+// JSX
+.syntax--jsx {
+  &.syntax--tag {
+    color: @syntax-text-color;
+  }
+
+  &.syntax--operator.syntax--keyword {
+    color: @green-citron !important;
+  }
+
+  &.syntax--begin.syntax--embedded,
+  &.syntax--end.syntax--embedded {
+    color: @orange-ochre;
   }
 }
