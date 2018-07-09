@@ -259,3 +259,19 @@ atom-text-editor {
     }
   }
 }
+
+// JSX
+.syntax--jsx {
+  &.syntax--tag {
+    color: @syntax-text-color;
+  }
+
+  &.syntax--operator.syntax--keyword {
+    color: @green-citron !important;
+  }
+
+  &.syntax--begin.syntax--embedded,
+  &.syntax--end.syntax--embedded {
+    color: @orange-ochre;
+  }
+}
