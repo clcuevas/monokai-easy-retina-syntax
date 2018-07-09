@@ -210,7 +210,7 @@ atom-text-editor {
   color: @purple-portage;
 }
 
-// Handlebars
+// Handlebars specific
 .syntax--handlebars {
   &.syntax--attribute-name.syntax--other {
     color: @gray-silver;
@@ -233,7 +233,7 @@ atom-text-editor {
   }
 }
 
-// HTML
+// HTML specific
 .syntax--html {
   &.syntax--key-value {
     color: @green-citron;
@@ -246,6 +246,7 @@ atom-text-editor {
   display: inline-block;
 }
 
+// JavaScript specific
 .syntax--js {
   .syntax--template {
     .syntax--element {
@@ -258,12 +259,20 @@ atom-text-editor {
       }
     }
   }
+
+  &.syntax--parameters .syntax--variable {
+    color: @orange-ochre;
+  }
 }
 
-// JSX
+// JSX specific
 .syntax--jsx {
   &.syntax--tag {
     color: @syntax-text-color;
+  }
+
+  .syntax--accessor.syntax--operator.syntax--keyword {
+    color: @syntax-text-color !important;
   }
 
   &.syntax--operator.syntax--keyword {
